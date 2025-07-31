@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    padding: 1%;
+    background-image: url(/Assets/Black-Panther.jpg);
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.child{
+    padding: 3%;
+    text-align: center;
+    background-color: rgba(92, 5, 89, 0.5);
+    color: rgba(255, 255, 255, 0.695);
+    transition: transform 0.3 ease;
+}
+.child:hover {
+    transform: scale(1.03);
+}
+.shadow{
+    width: 20%;
+    margin: 0%;
+    padding: 1%;
+    background-color: rgba(92, 5, 89, 0.5);
+    color: white;
+    text-align: center;
+    border: 10px groove;
+    box-shadow: 4px 4px 10px 4px red, -4px -4px 10px 4px blue;
+    font-size: 25px;
+    position:relative;
+    left: 39%;
+}
+.shadowback{
+    padding: 2%;
+    height: 150px;
+    background-color: black;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    margin-inline: 6.6%;
+    justify-content: space-around;
+    display:inline-block;
+    background-image: url(/Assets/Black-Panther.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow:  2px 2px 10px 4px red, -2px -2px 10px 4px blue;
+    border: 5px groove;
+    border-radius: 15px 15px 15px 15px;
+    transition: transform 0.3s ease;
+}
+/* Hover effect */
+.box:hover {
+    transform: translatey(-100px)  scale(2) skew(-10deg, -5deg);
+    box-shadow: 4px 4px 10px 4px red, -4px -4px 10px 4px blue;
+    border-radius: 25px 0px 25px 0px;
+    background-color:black;
+    background-image:none;
+}
+#box:hover{
+    color: white;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    font-size: 15px;
+    color: transparent;
+    text-align: center;
+    padding-top: 40%;
+}
+.t{
+    background-color: black;
+}
+.empty{
+    height: 200px;
+    background-color: black ;
+}

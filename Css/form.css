@@ -1,0 +1,47 @@
+.my-form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.my-form h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.my-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.my-form button:hover {
+  background-color: #2980b9;
+}

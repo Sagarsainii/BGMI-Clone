@@ -1,0 +1,33 @@
+/* Hover effect */
+.box:hover {
+    transform: translate(0px,-100px)  scale(2) skew(-10deg, -5deg);
+    box-shadow: 4px 4px 10px 4px black;
+    border-radius: 15px 0px 15px 0px;
+    background-color:black;
+    background-image: none;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 4%;
+    margin-inline: 6%;
+    justify-content: space-around;
+    display:inline-block;
+    background-image: url(/Assets/bgmi.jpeg);
+    background-size: cover;
+    box-shadow: 2px 2px 10px 2px black;
+    transition: transform 0.5s ease;
+    border: 5px groove;
+    border-radius: 15px 15px 15px 15px;
+}
+#box:hover{
+    color: white;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    color:transparent;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30%;
+}
